@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000000;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 70%;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #121212;
+  margin-top: 15vh;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.1);
+}
+
+.container div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+section + section {
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+strong {
+  color: #ff0000; /* vermelho Flamengo */
+  text-shadow: 0 0 10px rgba(255, 0, 0, 0.8),
+               0 0 20px rgba(255, 0, 0, 0.6),
+               0 0 40px rgba(255, 0, 0, 0.4),
+               0 0 60px rgba(255, 0, 0, 0.2);
+}
+
+p {
+  line-height: 1.6;
+  font-size: 20px;
+  color: #dddddd;
+}
+
+.inicio-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+main{
+  height: 88vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.elenco {
+  color: white;
+  list-style-type: disc;
+  padding-left: 20px;
+  line-height: 1.6;
+  font-size: 20px;
+}
+
+.logo-img {
+  max-width: 300px;
+  border-radius: 8px;
+  margin-left: 20px;
+  border: 3px solid #ff0000;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
+}
+
+.elenco-img {
+  width: 600px;
+  border: 3px solid #ff0000;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
+}
+
+footer {
+  background-color: #1a1a1a;
+  color: #888888;
+  text-align: right;
+  padding: 10px;
+  margin-top: 40px;
+}
+
+footer p {
+  color: #aaaaaa;
+  font-size: 14px;
+}
+
+.email {
+  color: #ff4d4d;
+}
+
+@media (max-width: 768px) {
+  .inicio-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .inicio-section img {
+    margin: 20px 0 0;
+  }
+}
