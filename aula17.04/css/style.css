@@ -7,9 +7,8 @@
 }
 
 body {
-  background-color: #000000;
+  background-color: rgb(14, 14, 14);
   font-family: "Poppins", sans-serif;
-  color: #ffffff;
 }
 
 .container {
@@ -18,10 +17,10 @@ body {
   max-width: 70%;
   margin: 0 auto;
   padding: 50px;
-  background-color: #121212;
-  margin-top: 15vh;
+  background-color: rgb(17, 17, 17);
+  margin-top: 20px;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(255, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
 }
 
 .container div {
@@ -35,24 +34,22 @@ section + section {
 }
 
 h2 {
-  font-size: 30px;
-  font-weight: 600;
+  font-size: 36px;
+  font-weight: 500;
   margin-bottom: 15px;
   color: #ffffff;
 }
 
 strong {
-  color: #ff0000; /* vermelho Flamengo */
-  text-shadow: 0 0 10px rgba(255, 0, 0, 0.8),
-               0 0 20px rgba(255, 0, 0, 0.6),
-               0 0 40px rgba(255, 0, 0, 0.4),
-               0 0 60px rgba(255, 0, 0, 0.2);
+  color: #ff8383;
+  text-shadow: 0 0 10px rgba(255, 0, 0, 0.8), 0 0 20px rgba(255, 0, 0, 0.6),
+    0 0 40px rgba(255, 0, 0, 0.4), 0 0 60px rgba(255, 0, 0, 0.2);
 }
 
 p {
   line-height: 1.6;
   font-size: 20px;
-  color: #dddddd;
+  color: #a8a8a8;
 }
 
 .inicio-section {
@@ -63,14 +60,7 @@ p {
   margin-top: 80px;
 }
 
-main{
-  height: 88vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.elenco {
+.skills {
   color: white;
   list-style-type: disc;
   padding-left: 20px;
@@ -78,35 +68,27 @@ main{
   font-size: 20px;
 }
 
-.logo-img {
+.inicio-section img {
   max-width: 300px;
   border-radius: 8px;
   margin-left: 20px;
-  border: 3px solid #ff0000;
-  box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
-}
-
-.elenco-img {
-  width: 600px;
-  border: 3px solid #ff0000;
-  box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
 }
 
 footer {
-  background-color: #1a1a1a;
-  color: #888888;
+  background-color: rgba(22, 22, 22, 1);
+  color: #383838;
   text-align: right;
   padding: 10px;
   margin-top: 40px;
 }
 
 footer p {
-  color: #aaaaaa;
+  color: #686868;
   font-size: 14px;
 }
 
-.email {
-  color: #ff4d4d;
+.email{
+  color: #ff5151;
 }
 
 @media (max-width: 768px) {
